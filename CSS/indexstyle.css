@@ -1,0 +1,38 @@
+h2{
+                color:green;
+                text-align:center;
+            
+            }
+
+#p1{
+    background-color: aqua;
+    color:blue;
+}
+/* .paragraph{
+    background-color: brown;
+    color:blueviolet;
+    font-size: xx-large;
+} */
+
+div>p{
+    background-color: cadetblue;
+    color: bisque;
+}
+/* p:hover{
+    font-size: xx-large;
+    background-color: brown;
+    color:white;
+} */
+ p::before{
+    content: "Welcome to ABES Engineering college";
+ }
+p::after{
+    content: "Thank you we completed this program";
+    background-color: burlywood;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p::selection{
+    background-color: crimson;
+}

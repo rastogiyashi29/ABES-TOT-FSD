@@ -1,0 +1,9 @@
+.box{
+    box-sizing: content-box;
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    margin: 40px 20px;
+
+
+}
