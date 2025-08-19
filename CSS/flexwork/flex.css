@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    border: 1px solid red;
+    height: 800px;
+    width: 800px;
+    margin: 50px;
+    background-color: aliceblue;
+}
+
+.box1{
+height: 150px;
+width: 200px;
+border: 1px dotted blue;
+background-color: beige;
+}
+
+.box2{
+height: 150px;
+width: 200px;
+border: 1px dotted palevioletred;
+background-color: brown;
+}
+
+.box3{
+height: 150px;
+width: 200px;
+border: 1px dotted papayawhip;
+background-color: aqua;
+}
+
+.box4{
+height: 150px;
+width: 200px;
+border: 1px dotted beige;
+background-color: cadetblue;
+}
