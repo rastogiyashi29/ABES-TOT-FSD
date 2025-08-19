@@ -1,0 +1,181 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: 400px 400px;
+    height: 1200px;
+    width: 1200px;
+    border: 1px solid red;
+}
+.box1{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 300px;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    
+}
+.box11{
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(69, 3, 3);
+}
+.box12{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(8, 28, 84);
+}
+.box13{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(42, 165, 122);
+}
+.box14{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: rgb(165, 42, 116);
+}
+
+
+.box2{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 300px;
+    border: 1px solid blue;
+    background-color: brown;
+}
+.box21{
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(69, 3, 3);
+}
+.box22{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(8, 28, 84);
+}
+.box23{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(42, 165, 122);
+}
+.box24{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: rgb(165, 42, 116);
+}
+
+.box3{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 300px;
+    border: 1px solid blue;
+    background-color: burlywood;
+}
+.box31{
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(69, 3, 3);
+}
+.box32{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(8, 28, 84);
+}
+.box33{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(42, 165, 122);
+}
+.box34{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: rgb(165, 42, 116);
+}
+
+.box4{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 300px;
+    border: 1px solid blue;
+    background-color: chocolate;
+}
+.box41{
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(69, 3, 3);
+}
+.box42{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(8, 28, 84);
+}
+.box43{
+
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid blue;
+    background-color: rgb(42, 165, 122);
+}
+.box44{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color: rgb(165, 42, 116);
+}

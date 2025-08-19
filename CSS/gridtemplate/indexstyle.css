@@ -18,9 +18,9 @@
 }
 .box2{
     display: grid;
-    height: 300px;
-    grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
+    height: 300px;
     width: 300px;
     border: 1px solid blue;
     background-color: brown;
