@@ -7,21 +7,54 @@
     border: 1px solid red;
 }
 .box1{
-    height: auto;
-    width: auto;
-    border: 1px solid blue;
-    background-color: blueviolet;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.box2{
     height: 200px;
     width: 150px;
     border: 1px solid blue;
+    background-color: blueviolet;
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+}
+.box2{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width: 300px;
+    border: 1px solid blue;
     background-color: brown;
 }
+.box21{
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background-color: rgb(69, 3, 3);
+}
+.box22{
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background-color: rgb(8, 28, 84);
+}
+.box23{
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background-color: rgb(42, 165, 122);
+}
+.box24{
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    background-color: rgb(165, 42, 116);
+}
+
+
 .box3{
     height: 200px;
     width: 150px;
