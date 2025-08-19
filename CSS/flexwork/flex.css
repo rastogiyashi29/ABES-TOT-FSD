@@ -5,32 +5,62 @@
     width: 800px;
     margin: 50px;
     background-color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-content: baseline;
+    align-items: center;
 }
 
 .box1{
 height: 150px;
-width: 200px;
-border: 1px dotted blue;
+width: 150px;
+border: 2px dotted blue;
 background-color: beige;
 }
 
 .box2{
 height: 150px;
-width: 200px;
-border: 1px dotted palevioletred;
+width: 150px;
+border: 2px dotted palevioletred;
 background-color: brown;
 }
 
 .box3{
 height: 150px;
-width: 200px;
-border: 1px dotted papayawhip;
+width: 150px;
+border: 2px dotted papayawhip;
 background-color: aqua;
 }
 
 .box4{
 height: 150px;
-width: 200px;
-border: 1px dotted beige;
+width: 150px;
+border: 2px dotted beige;
 background-color: cadetblue;
 }
+/* .box5{
+height: 150px;
+width: 200px;
+border: 2px dotted red;
+background-color: blueviolet;
+}
+.box6{
+height: 150px;
+width: 200px;
+border: 2px dotted burlywood;
+background-color: palegreen;
+}
+.box7{
+height: 150px;
+width: 200px;
+border: 2px dotted peru;
+background-color: plum;
+}
+.box8{
+height: 150px;
+width: 200px;
+border: 2px dotted rosybrown;
+background-color: royalblue;
+} */
