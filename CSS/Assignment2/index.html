@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Art Director & Product Designer - Tobias Beratta</title>
-  <link rel="stylesheet" href="indexstyle.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="indexstyle.css">
 </head>
 <body>
-  <header class="container" aria-label="Primary Navigation">
-    <a href="#" class="logo" aria-label="Tobias Beratta Home">Tobias<span>Beratta</span></a>
-    <nav>
-      <ul role="menubar" aria-label="Main menu">
-        <li role="none"><a href="#" role="menuitem" class="active" aria-current="page">Home</a></li>
-        <li role="none"><a href="#" role="menuitem">Resume</a></li>
-        <li role="none"><a href="#" role="menuitem">Works</a></li>
-        <li role="none"><a href="#" role="menuitem">Profile</a></li>
-        <li role="none"><a href="#" role="menuitem">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li class="active">Home</li>
+                    </a>
+                    <a href="aboutme.html">
+                        <li>About</li>
+                    </a>
+                    <a href="https://github.com/rastogiyashi29/ABES-TOT-FSD.git">
+                        <li>Projects</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <main class="container" role="main">
-    <section class="hero" aria-label="Introduction and overview about Tobias Beratta">
-      <div class="hero-left">
-        <p class="intro" aria-label="Greeting and name introduction">Hello, I'm Tobias</p>
-        <h1>
-          <span>Art Director &amp;</span><br />
-          Product Designer
-        </h1>
-        <h2>at Panoply
-```
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <p class="intro">Welcome to my portfolio</p>
+                <h1>Yashi Rastogi</h1>
+                <h2>Web Developer</h2>
+                <div class="buttons">
+                    <a href="aboutme.html">
+                        <button class="btn btn-about">About Me</button>
+                        </a>
+                    <a href="viewworks.html">
+                        <button class="btn btn-works">View Works</button>
+                        </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-container">
+                    <img src="/CSS/Assignment2/3977.jpg" alt="Your Image" class="hero-image">
+                    <div class="semi-circle-pink"></div>
+                    <div class="semi-circle-blue"></div>
+                    <div class="semi-circle-fade"></div>
+                </div>
+                <div class="quote-container">
+                    <div class="quote-mark">“</div>
+                    <div class="quote-text-bold">Inspiration comes from within yourself.</div>
+                    <div class="quote-text-light">- Unknown</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div>&copy; 2023 Your Name. All rights reserved.</div>
+    </footer>
+</body>
+</html>
